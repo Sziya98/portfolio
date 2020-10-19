@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/5f3490007b.js" crossorigin="anonymous"></script>
+	<!-- Custom CSS -->
+	<link href="style.css" rel="stylesheet">
+	<!-- Bootstrap Javasript -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	
+	<title>Portfolio (Sia Lee Gee-Ei)</title>
+	<link rel="shortcut icon" href="img/logo.png">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	<h1><a class="navbar-brand" href=""><i class="fab fa-buffer"></i>Portfolio</a></h1>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#aboutme">About Me</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#qualifications">Qualifications</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#experience">Experience</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#skills">Skills</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<!-- Fixed BG -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+
+<!-- About Me Section-->
+<div class="container-fluid padding" id="aboutme">
+	<div class="row text-center TitleText">
+		<div class="col-12">
+			<h1 class="display-3" style="font-size:8vw">Sia Lee Gee-Ei</h1>
+			<hr>
+		</div>
+	</div>
+	<div class="row padding justify-content-around">
+		<div class="col-12">
+			<h2>About Me</h2>
+		</div>
+		<div class="col-xs-6 col-md-3 col-xl-2 text-center" >
+			<img class="img-fluid rounded" src="img/profilepic.png" alt="Profile Picture">
+		</div>
+		<div class="col-xs-12 col-md-8 col-xl-9 text-justify" style="background-color:#f0eded; line-height:2;">
+			Passionate fresh graduate seeking to explore the career opportunities and interests in the Information Technology sector. Although without a degree/diploma in the field of IT, I am confident with my abilities and skills related to the field of IT such as coding languages, fundamental IT concepts and principles and the up-to-date knowledge of the latest advancements and news in this sector.
+		</div>
+	</div>
+<hr>
+</div>
+
+<!-- Qualifications Section -->
+<div class="container-fluid padding" id="qualifications">
+	<div class="row padding">
+		<div class="col-12">
+			<h2>Education and Qualifications</h2>
+		</div>
+	</div>
+	<div class="accordion padding" id="accordionExample">
+		<div class="card">
+			<div class="card-header text-center" id="headingOne">
+				<h2 class="mb-0">
+					<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						Bachelor in Psychology (Hons)
+					</button>
+				</h2>
+			</div>
+			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				<div class="card-body text-justify">
+					I completed a 3-year bachelor's degree programme at HELP University with a second-upper class honours. Graduated in January 2020.
+					<b>CGPA: 3.28</b>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header text-center" id="headingTwo">
+				<h2 class="mb-0">
+					<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						IT Support Specialist Professional Certificate
+					</button>
+				</h2>
+			</div>
+			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+				<div class="card-body text-justify">
+					An IT support programme designed by <b>Google</b> that covers the fundamental skills and knowledge required in IT troubleshooting, customer service, networking, operating systems, system administration and cyber-security.<br>
+					
+					<a href="https://www.youracclaim.com/badges/3bdc55ea-6a55-4772-8b91-540c4f57102e?source=linked_in_profile" target="_blank" class="faded">See Credentials</a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header text-center" id="headingThree">
+				<h2 class="mb-0">
+					<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						Basic Web Development and Coding Specialization
+					</button>
+				</h2>
+			</div>
+			<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				<div class="card-body text-justify">
+					A specialization course that covers the fundamental web development and design skills including HTML5, CSS3, JavaScript and concepts such as responsive design. The capstone of the course consists of a hands on UI/UX experience with a from scratch website development project.
+					This course was offered by the <b>University of Michigan</b> through the online learning platform Coursera.<br>
+					
+					<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/T7DTYFH885MG" target="_blank" class="faded">See Credentials</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+</div>
+
+<!-- Experience Section -->
+<div class="container-fluid padding" id="experience">
+	<div class="row padding">
+		<div class="col-12">
+			<h2>Professional Experience</h2>
+		</div>
+	</div>
+	<div class="row row-cols-1 row-cols-md-3">
+		<div class="col mb-4">
+			<div class="card h-100">
+				<img src="img/Barista.jpg" class="card-img-top img-fluid" alt="Golden Whale International Logo">
+				<div class="card-body">
+					<h5 class="card-title">Barista</h5>
+					<p class="card-text"><b>Golden Whale International Sdn Bhd.</b></p>
+					<hr>
+					<p class="card-text text-justify">Provided excellent customer service and efficient food preperation.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col mb-4">
+			<div class="card h-100">
+				<img src="img/wisesight.png" class="card-img-top img-fluid" alt="WiseSight Sdn Bhd Logo">
+				<div class="card-body">
+					<h5 class="card-title">Data Analyst Intern</h5>
+					<p class="card-text"><b>WiseSight Sdn Bhd.</b></p>
+					<hr>
+					<p class="card-text text-justify">Performed compilation and coding on high volumes of website data.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col mb-4">
+			<div class="card h-100">
+				<img src="img/sjlogo.png" class="card-img-top img-fluid" alt="St. John Ambulans Malaysia Logo">
+				<div class="card-body">
+					<h5 class="card-title">Volunteer</h5>
+					<p class="card-text"><b>St. John Ambulans Malaysia</b></p>
+					<hr>
+					<p class="card-text text-justify">participation in public duties and planning of charity events and member welfare projects.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col mb-4">
+			<div class="card h-100">
+				<img src="img/hulogo.png" class="card-img-top img-fluid" alt="HELP University Logo">
+				<div class="card-body">
+					<h5 class="card-title">Research/Lab Assistant</h5>
+					<p class="card-text"><b>HELP Univserity Academic Research Trainee Programme (Cerebro Labs)</b></p>
+					<hr>
+					<p class="card-text text-justify">Assisted in setting up EEG Lab equipments for experiments</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+</div>
+
+<!-- Skills Sections -->
+<div class="container-fluid padding" id="skills">
+	<div class="row padding">
+		<div class="col-12">
+			<h2>Technical Skills</h2>
+		</div>
+	</div>
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fab fa-html5 fa-7x"></i>
+			<h3>HTML5</h3>
+			<p>Exposition</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fab fa-css3 fa-7x"></i>
+			<h3>CSS3</h3>
+			<p>Exposition</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fab fa-js-square fa-7x"></i>
+			<h3>JavaScript</h3>
+			<p>Exposition</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fab fa-bootstrap fa-7x"></i>
+			<h3>Bootstrap 4.0</h3>
+			<p>Exposition</p>
+		</div>	
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fab fa-python fa-7x"></i>
+			<h3>Python</h3>
+			<p>Exposition</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fab fa-windows fa-7x"></i>
+			<h3>Microsoft Office</h3>
+			<p>Exposition</p>
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row padding text-center">
+			<div class="col-xs-12 col-md-6">
+				<hr class="foterline">
+				<h3>Contact</h3>
+				<hr class="foterline">
+				<div class="padding"><a href="mailto:geeei.1998@gmail.com" class="text-monospace"><i class="far fa-envelope fa-2x"></i> geeei.1998@gmail.com</a></div>
+				<div class="padding"><a href="#" onClick="return false" class="text-monospace"><i class="fas fa-mobile-alt fa-2x"></i> +60 12-6290 832</a></div>
+				<div class="padding"><a href="https://www.linkedin.com/in/gee-ei-sia-lee/" target="_blank" class="text-monospace"><i class="fab fa-linkedin fa-2x"></i> Sia Lee Gee-Ei</a></div>
+			</div>
+			<div class="col-xs-12 col-md-6">
+				<hr class="foterline">
+				<h3>Resume/CV</h3>
+				<hr class="foterline">
+				<a href="resources/CV.pdf" target="_blank"><i class="far fa-file-alt fa-10x"></i></a>
+			</div>
+		</div>
+		<hr class="foterline">
+		<div class="row padding text-center">
+			<div class="col-12">
+				<p>Copyright Section</p>
+				
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
